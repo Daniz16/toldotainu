@@ -1,0 +1,268 @@
+﻿body {
+    direction: rtl;
+}
+
+body {
+    direction: rtl;
+    width: 1280px;
+    /*width: 1667px;*/
+    margin: 0 auto;
+    background-image: url(../pics/background.jpg);
+    background-size: cover;
+}
+
+.navList {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /*z-index: 7;*/
+    z-index: 2;
+}
+
+#mainNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+#mainNav li {
+    display: inline-block;
+}
+/*
+    #mainNav li a{
+        display: inline-block;
+    }*/
+
+
+#mainNav ul li a {
+    display: block;
+    color: papayawhip;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    padding-top: 10px;
+}
+
+#mainNav a:hover {
+    background-color: lightskyblue;
+}
+
+#mainNav a:active {
+    background-color: red;
+}
+
+#mainNav .innerUl {
+    display: none;
+    position: absolute;
+}
+
+#mainNav ul li:hover .innerUl {
+    display: block;
+    width: 150px;
+}
+
+h1 {
+    margin-top: 81px;
+    /*text-align: center;*/
+    font-family: 'Guttman Drogolin';
+    font-size: 50px;
+    color: #a13245;
+    text-align: center;
+    /*position: center;*/
+}
+
+
+h2 {
+    font-family: 'Guttman Drogolin';
+    font-size: 30px;
+    color: #a13245;
+    text-align: center;
+    /*    position: center;
+*/
+}
+/*div span {
+    font-family: Assistant;
+    font-size: 25px;*/
+/* color: black; */
+/*margin: 0 auto;
+    display: block;*/
+/* width: fit-content; */
+/*text-align: center;*/
+/* top: 51px; */
+/*margin-top: 22px;
+    margin-bottom: 20px;
+}*/
+
+
+.breadCrumbs {
+    right: 0;
+    margin-top: 51px;
+    /* margin-right: 98px; */
+    z-index: 3;
+    position: absolute;
+}
+
+
+
+
+    .breadCrumbs ol li {
+        display: inline-block;
+    }
+
+        .breadCrumbs ol li a {
+            text-decoration: none;
+        }
+
+        .breadCrumbs ol li:after {
+            content: ">";
+        }
+
+        .breadCrumbs ol li:last-child:after {
+            content: "";
+        }
+
+
+
+.notActive{
+    cursor:not-allowed;
+    color:grey;
+}
+
+
+.rightPart p {
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: 'Guttman Drogolin';
+}
+
+
+
+.rightPart {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /*padding: 20px;*/
+    /*background-color: #f9f9f9;*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column;
+    z-index: 2;*/
+    background-image: url(../pics/evening-sky-background.jpg);
+    background-repeat: no-repeat;
+    /*    background-position-x: right;
+*/
+}
+
+    .rightPart h1 {
+        /*margin-top: 81px;*/
+        /*text-align: center;*/
+        font-family: 'Guttman Drogolin';
+        font-size: 50px;
+        color: black;
+        text-align: center;
+        margin-top: 0;
+    }
+
+
+.leftPart {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+    .leftPart section {
+        width: 100%;
+        /*box-sizing: border-box;*/
+        padding: 20px;
+        /*border: 1px solid black;*/
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+h3 {
+    font-size: 160px;
+    /* margin: 0; */
+    margin-top: 125px;
+    font-family: 'Guttman Drogolin';
+    color: #a13245;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+.leftPart p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+section .eve, .dvora, .sara, .rachel, .yael, .ruth {
+    display: block;
+    /* margin-left: 202px; */
+    margin-right: 40px;
+    margin-top: 7px;
+    flex: 1;
+    /* width: 89px; */
+    text-align: justify;
+}
+
+
+
+
+.readMore a {
+    text-decoration: none;
+    color: #a13245;
+}
+
+.referalToReading {
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+
+
+footer ul {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
+
+
+footer ul li a {
+    display: block;
+    color: papayawhip;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    padding-top: 17px;
+    margin: 0px 22px 0px 22px;
+}
+
+
+footer a:active {
+    background-color: red;
+}
+
+#footerList {
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}

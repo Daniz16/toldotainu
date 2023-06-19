@@ -1,0 +1,185 @@
+﻿body {
+   direction: rtl;
+    width: 1280px;
+    /*width: 1667px;*/
+    margin: 0 auto;
+    background-image: url(../pics/background.jpg);
+    background-size: cover;
+}
+
+.notActive {
+    cursor: not-allowed;
+    color: grey;
+}
+
+.navList {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /*z-index: 7;*/
+    z-index: 2;
+}
+
+#mainNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+#mainNav li {
+    display: inline-block;
+}
+/*
+    #mainNav li a{
+        display: inline-block;
+    }*/
+
+
+#mainNav ul li a {
+    display: block;
+    color: papayawhip;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    padding-top: 10px;
+}
+
+#mainNav a:hover {
+    background-color: lightskyblue;
+}
+
+#mainNav a:active {
+    background-color: red;
+}
+
+#mainNav .innerUl {
+    display: none;
+    position: absolute;
+}
+
+#mainNav ul li:hover .innerUl {
+    display: block;
+    width: 150px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: red;
+    }
+
+div {
+    margin: 5px;
+    padding: 10px 10px 50px 700px;
+    direction: rtl;
+    color:brown;
+}
+
+.fill{
+    background-color:goldenrod;
+}
+
+#sendFrom {
+    color: brown;
+    background-color: peru;
+}
+
+    #sendFrom :hover {
+        color: goldenrod;
+        background-color:brown ;
+    }
+
+    #sendFrom :active {
+        color: brown;
+        background-color:goldenrod ;
+    }
+
+
+footer ul {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
+
+
+footer ul li a {
+    display: block;
+    color: papayawhip;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    padding-top: 17px;
+    margin: 0px 22px 0px 22px;
+}
+
+
+footer a:active {
+    background-color: red;
+}
+
+#footerList {
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+
+
+header {
+    font-size: 25px;
+    color: brown;
+    direction: rtl;
+    padding: 10px;
+}
+
+
+
+#emekHeka {
+    padding: 3px 15px 200px 15px;
+}
+
+
+.breadCrumbs {
+    right: 0;
+    margin-top: 20px;
+    /* margin-right: 98px; */
+    z-index: 3;
+    position: absolute;
+}
+
+
+
+
+    .breadCrumbs ol li {
+        display: inline-block;
+    }
+
+        .breadCrumbs ol li a {
+            text-decoration: none;
+        }
+
+        .breadCrumbs ol li:after {
+            content: ">";
+        }
+
+        .breadCrumbs ol li:last-child:after {
+            content: "";
+        }
+

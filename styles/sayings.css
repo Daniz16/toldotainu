@@ -1,0 +1,321 @@
+﻿body {
+    direction: rtl;
+    width: 1280px;
+    /*width: 1667px;*/
+    margin: 0 auto;
+    background-image: url(../pics/background.jpg);
+    background-size: cover;
+}
+
+.notActive {
+    cursor: not-allowed;
+    color: grey;
+}
+
+.navList {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /*z-index: 7;*/
+    z-index: 2;
+}
+
+#mainNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+#mainNav li {
+    display: inline-block;
+}
+/*
+    #mainNav li a{
+        display: inline-block;
+    }*/
+
+
+#mainNav ul li a {
+    display: block;
+    color: papayawhip;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    padding-top: 10px;
+}
+
+#mainNav a:hover {
+    background-color: lightskyblue;
+}
+
+#mainNav a:active {
+    background-color: red;
+}
+
+#mainNav .innerUl {
+    display: none;
+    position: absolute;
+}
+
+#mainNav ul li:hover .innerUl {
+    display: block;
+    width: 150px;
+}
+
+h1 {
+    margin-top: 81px;
+    /*text-align: center;*/
+    font-family: 'Guttman Drogolin';
+    font-size: 50px;
+    color: #a13245;
+    text-align: center;
+    position:center;
+}
+
+div span {
+    font-family: Assistant;
+    font-size: 25px;
+    /* color: black; */
+    margin: 0 auto;
+    display: block;
+    /* width: fit-content; */
+    text-align: center;
+    /* top: 51px; */
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*.saying,*/
+.firstSaying, .secSaying, .thirdSaying, .fourthSaying, .fifthSaying, .sixthSaying {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+
+.picBook {
+    /*background-image: url(../pics/excellent-female-student-choosing-vintage-book-library.jpg);*/
+    /*background-size: 323px;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    width: 350px;
+    height: 350px;
+    /*background-position-x: right;*/
+    /*margin-right: 50px;*/
+    margin-top: 115px;
+}
+
+.bookText {
+    flex: 1;
+    /* text-align: center; */
+    top: 100px;
+    /* display: inline-block; */
+    margin-top: 115px;
+    margin-right: 185px;
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.5;
+    padding-left: 150px;
+    text-align: justify;
+}
+
+
+p .quote {
+    font-size: 35px;
+    word-spacing: 2.5px;
+}
+
+
+.picRuins {
+    /*background-image: url(../pics/beautiful-ancient-building-with-ruins-columns.jpg);*/
+    /*background-size: cover;*/
+    width: 350px;
+    height: 380px;
+    margin-top: 115px;
+    margin-left: 147px;
+}
+
+
+.samsonText {
+    flex: 1;
+    /* text-align: center; */
+    top: 100px;
+    /* display: inline-block; */
+    margin-top: 113px;
+    /* margin-right: 75px; */
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.4;
+    padding-left: 190px;
+    text-align: justify;
+}
+
+
+footer ul {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
+
+
+footer ul li a {
+    display: block;
+    color: papayawhip;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    padding-top: 17px;
+    margin: 0px 22px 0px 22px;
+}
+
+
+footer a:active {
+    background-color: red;
+}
+
+#footerList {
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+
+.picSheep {
+    /*background-image: url(../pics/selective-focus-shot-bunch-domestic-sheep.jpg) ;*/
+    /*background-size: 323px;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    width: 350px;
+    height: 380px;
+    /*background-position-x: right;*/
+    /*margin-right: 50px;*/
+    margin-top: 115px;
+}
+
+.sheepText {
+    flex: 1;
+    /* text-align: center; */
+    top: 100px;
+    /* display: inline-block; */
+    margin-top: 120px;
+    margin-right: 185px;
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.5;
+    padding-left: 150px;
+    text-align: justify;
+}
+
+.picMercy {
+    /*background-image: url(../pics/Pray2.jpg);*/
+    /*background-size: cover;*/
+    width: 350px;
+    height: 350px;
+    margin-top: 115px;
+    margin-left: 147px;
+}
+
+.mercyText {
+    flex: 1;
+    /* text-align: center; */
+    top: 100px;
+    /* display: inline-block; */
+    margin-top: 100px;
+    /* margin-right: 75px; */
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.5;
+    padding-left: 190px;
+    text-align: justify;
+}
+
+.picScale {
+    /*background-image: url(../pics/Scale.jpg);*/
+    /*background-size: 323px;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    width: 350px;
+    height: 385px;
+    /*background-position-x: right;*/
+    /*margin-right: 50px;*/
+    margin-top: 115px;
+}
+
+.scalerText {
+    flex: 1;
+    /* text-align: center; */
+    top: 100px;
+    /* display: inline-block; */
+    margin-top: 105px;
+    margin-right: 185px;
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.5;
+    padding-left: 150px;
+    text-align: justify;
+}
+
+.picWater {
+    /*background-image: url(../pics/drops-falling-water.jpg);*/
+    /*background-size: cover;*/
+    width: 350px;
+    height: 350px;
+    margin-top: 115px;
+    margin-left: 147px;
+}
+
+.waterText {
+    flex: 1;
+    /* text-align: center; */
+    top: 100px;
+    /* display: inline-block; */
+    margin-top: 113px; /* margin-right: 75px; */
+    font-size: 20px;
+    font-family: Assistant;
+    line-height: 1.5;
+    padding-left: 190px;
+    text-align: justify;
+}
+
+.breadCrumbs {
+    right: 0;
+    /* margin-right: 98px; */
+    z-index: 3;
+    position: absolute;
+}
+
+
+
+
+    .breadCrumbs ol li {
+        display: inline-block;
+    }
+
+        .breadCrumbs ol li a {
+            text-decoration: none;
+        }
+
+        .breadCrumbs ol li:after {
+            content: ">";
+        }
+
+        .breadCrumbs ol li:last-child:after {
+            content: "";
+        }
+
