@@ -1,10 +1,6 @@
-﻿
-
-
-body {
+﻿body {
     direction: rtl;
     width: 1280px;
-    /*width: 1667px;*/
     margin: 0 auto;
     background-image: url(../pics/background.jpg);
     background-size: cover;
@@ -35,10 +31,6 @@ body {
 #mainNav li {
     display: inline-block;
 }
-/*
-    #mainNav li a{
-        display: inline-block;
-    }*/
 
 
 #mainNav ul li a {
@@ -49,14 +41,6 @@ body {
     width: 150px;
     height: 34px;
     padding-top: 10px;
-}
-
-#mainNav a:hover {
-    background-color: lightskyblue;
-}
-
-#mainNav a:active {
-    background-color: red;
 }
 
 #mainNav .innerUl {
@@ -70,26 +54,23 @@ body {
 }
 
 
-a {
-    color: saddlebrown;
-    text-decoration: none;
+h1 {
+    margin-top: 81px;
+    font-family: 'Guttman Drogolin';
+    font-size: 50px;
+    color: #a13245;
+    text-align: center;
 }
 
-    a:hover {
-        color: red;
-    }
-
-div {
-    margin: 5px;
-    padding: 10px 10px 50px 700px;
-    direction: rtl;
-    color: brown;
+main {
+    margin-top: 130px;
 }
+
+
 
 .fill {
     background-color: antiquewhite;
 }
-
 
 footer ul {
     margin-top: 40px;
@@ -116,8 +97,22 @@ footer ul li a {
 }
 
 
+#mainNav a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+#mainNav a:active {
+    background-color: #a13245;
+}
+
+footer a:hover {
+    background-color: bisque;
+    color: black;
+}
+
 footer a:active {
-    background-color: red;
+    background-color: #a13245;
 }
 
 #footerList {
@@ -130,45 +125,23 @@ footer a:active {
 }
 
 
-.innerUl {
-    display: inline;
-    margin: 10px;
-    padding: 20px;
-    font-size: 18px;
-}
-
-.droptxt {
-    display: inline;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-
-
-header {
-    font-size: 25px;
-    color: brown;
-    direction: rtl;
-    padding: 10px;
-}
-
-
 
 .breadCrumbs {
+   
     right: 0;
-    margin-top: 51px;
-    /* margin-right: 98px; */
-    z-index: 3;
+    top: 34px;
+    /* margin-bottom: 69px; */
+    margin-right: 98px;
+    /* z-index: 3; */
     position: absolute;
 }
 
 
 
 
-    .breadCrumbs ol li {
-        display: inline-block;
-    }
+.breadCrumbs ol li {
+    display: inline-block;
+}
 
         .breadCrumbs ol li a {
             text-decoration: none;
@@ -182,3 +155,30 @@ header {
             content: "";
         }
 
+
+
+
+.dropdown1 {
+    margin-right: 250px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.dropdown2 {
+    margin-right: 450px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.dropdown3 {
+    margin-right: 621px;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+.dropdown4 {
+    margin-right: 850px;
+    position: absolute;
+    font-size: 20px;
+}

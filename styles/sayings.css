@@ -1,7 +1,6 @@
 ﻿body {
     direction: rtl;
     width: 1280px;
-    /*width: 1667px;*/
     margin: 0 auto;
     background-image: url(../pics/background.jpg);
     background-size: cover;
@@ -32,10 +31,7 @@
 #mainNav li {
     display: inline-block;
 }
-/*
-    #mainNav li a{
-        display: inline-block;
-    }*/
+
 
 
 #mainNav ul li a {
@@ -46,14 +42,6 @@
     width: 150px;
     height: 34px;
     padding-top: 10px;
-}
-
-#mainNav a:hover {
-    background-color: lightskyblue;
-}
-
-#mainNav a:active {
-    background-color: red;
 }
 
 #mainNav .innerUl {
@@ -68,7 +56,6 @@
 
 h1 {
     margin-top: 81px;
-    /*text-align: center;*/
     font-family: 'Guttman Drogolin';
     font-size: 50px;
     color: #a13245;
@@ -79,20 +66,13 @@ h1 {
 div span {
     font-family: Assistant;
     font-size: 25px;
-    /* color: black; */
     margin: 0 auto;
     display: block;
-    /* width: fit-content; */
     text-align: center;
-    /* top: 51px; */
     margin-top: 22px;
     margin-bottom: 20px;
 }
 
-
-
-
-/*.saying,*/
 .firstSaying, .secSaying, .thirdSaying, .fourthSaying, .fifthSaying, .sixthSaying {
     display: flex;
     flex-wrap: wrap;
@@ -100,23 +80,19 @@ div span {
     margin-right: 250px;
 }
 
+.saying {
+    margin-bottom: 100px;
+}
+
 .picBook {
-    /*background-image: url(../pics/excellent-female-student-choosing-vintage-book-library.jpg);*/
-    /*background-size: 323px;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     width: 350px;
     height: 350px;
-    /*background-position-x: right;*/
-    /*margin-right: 50px;*/
     margin-top: 115px;
 }
 
 .bookText {
     flex: 1;
-    /* text-align: center; */
     top: 100px;
-    /* display: inline-block; */
     margin-top: 115px;
     margin-right: 185px;
     font-size: 20px;
@@ -134,8 +110,6 @@ p .quote {
 
 
 .picRuins {
-    /*background-image: url(../pics/beautiful-ancient-building-with-ruins-columns.jpg);*/
-    /*background-size: cover;*/
     width: 350px;
     height: 380px;
     margin-top: 115px;
@@ -145,11 +119,8 @@ p .quote {
 
 .samsonText {
     flex: 1;
-    /* text-align: center; */
     top: 100px;
-    /* display: inline-block; */
     margin-top: 113px;
-    /* margin-right: 75px; */
     font-size: 20px;
     font-family: Assistant;
     line-height: 1.4;
@@ -183,8 +154,22 @@ footer ul li a {
 }
 
 
+#mainNav a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+#mainNav a:active {
+    background-color: #a13245;
+}
+
+footer a:hover {
+    background-color: bisque;
+    color: black;
+}
+
 footer a:active {
-    background-color: red;
+    background-color: #a13245;
 }
 
 #footerList {
@@ -197,22 +182,14 @@ footer a:active {
 
 
 .picSheep {
-    /*background-image: url(../pics/selective-focus-shot-bunch-domestic-sheep.jpg) ;*/
-    /*background-size: 323px;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
     width: 350px;
     height: 380px;
-    /*background-position-x: right;*/
-    /*margin-right: 50px;*/
     margin-top: 115px;
 }
 
 .sheepText {
     flex: 1;
-    /* text-align: center; */
     top: 100px;
-    /* display: inline-block; */
     margin-top: 120px;
     margin-right: 185px;
     font-size: 20px;
@@ -223,8 +200,6 @@ footer a:active {
 }
 
 .picMercy {
-    /*background-image: url(../pics/Pray2.jpg);*/
-    /*background-size: cover;*/
     width: 350px;
     height: 350px;
     margin-top: 115px;
@@ -233,11 +208,8 @@ footer a:active {
 
 .mercyText {
     flex: 1;
-    /* text-align: center; */
     top: 100px;
-    /* display: inline-block; */
     margin-top: 100px;
-    /* margin-right: 75px; */
     font-size: 20px;
     font-family: Assistant;
     line-height: 1.5;
@@ -246,22 +218,15 @@ footer a:active {
 }
 
 .picScale {
-    /*background-image: url(../pics/Scale.jpg);*/
-    /*background-size: 323px;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
+
     width: 350px;
     height: 385px;
-    /*background-position-x: right;*/
-    /*margin-right: 50px;*/
     margin-top: 115px;
 }
 
 .scalerText {
     flex: 1;
-    /* text-align: center; */
     top: 100px;
-    /* display: inline-block; */
     margin-top: 105px;
     margin-right: 185px;
     font-size: 20px;
@@ -272,8 +237,6 @@ footer a:active {
 }
 
 .picWater {
-    /*background-image: url(../pics/drops-falling-water.jpg);*/
-    /*background-size: cover;*/
     width: 350px;
     height: 350px;
     margin-top: 115px;
@@ -282,10 +245,8 @@ footer a:active {
 
 .waterText {
     flex: 1;
-    /* text-align: center; */
     top: 100px;
-    /* display: inline-block; */
-    margin-top: 113px; /* margin-right: 75px; */
+    margin-top: 113px; 
     font-size: 20px;
     font-family: Assistant;
     line-height: 1.5;
@@ -295,7 +256,6 @@ footer a:active {
 
 .breadCrumbs {
     right: 0;
-    /* margin-right: 98px; */
     z-index: 3;
     position: absolute;
 }

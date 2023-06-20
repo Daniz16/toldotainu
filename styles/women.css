@@ -5,7 +5,6 @@
 body {
     direction: rtl;
     width: 1280px;
-    /*width: 1667px;*/
     margin: 0 auto;
     background-image: url(../pics/background.jpg);
     background-size: cover;
@@ -16,7 +15,6 @@ body {
     position: absolute;
     right: 0px;
     top: 0px;
-    /*z-index: 7;*/
     z-index: 2;
 }
 
@@ -31,10 +29,7 @@ body {
 #mainNav li {
     display: inline-block;
 }
-/*
-    #mainNav li a{
-        display: inline-block;
-    }*/
+
 
 
 #mainNav ul li a {
@@ -47,13 +42,6 @@ body {
     padding-top: 10px;
 }
 
-#mainNav a:hover {
-    background-color: lightskyblue;
-}
-
-#mainNav a:active {
-    background-color: red;
-}
 
 #mainNav .innerUl {
     display: none;
@@ -81,27 +69,14 @@ h2 {
     font-size: 30px;
     color: #a13245;
     text-align: center;
-    /*    position: center;
-*/
+    
+
 }
-/*div span {
-    font-family: Assistant;
-    font-size: 25px;*/
-/* color: black; */
-/*margin: 0 auto;
-    display: block;*/
-/* width: fit-content; */
-/*text-align: center;*/
-/* top: 51px; */
-/*margin-top: 22px;
-    margin-bottom: 20px;
-}*/
 
 
 .breadCrumbs {
     right: 0;
     margin-top: 51px;
-    /* margin-right: 98px; */
     z-index: 3;
     position: absolute;
 }
@@ -149,22 +124,18 @@ h2 {
     position: fixed;
     top: 0;
     right: 0;
-    /*padding: 20px;*/
-    /*background-color: #f9f9f9;*/
+    
     height: 100%;
     display: flex;
     align-items: center;
-    /* flex-direction: column;
-    z-index: 2;*/
+    
     background-image: url(../pics/evening-sky-background.jpg);
     background-repeat: no-repeat;
-    /*    background-position-x: right;
-*/
+    
 }
 
     .rightPart h1 {
-        /*margin-top: 81px;*/
-        /*text-align: center;*/
+       
         font-family: 'Guttman Drogolin';
         font-size: 50px;
         color: black;
@@ -192,12 +163,11 @@ h2 {
 
 h3 {
     font-size: 160px;
-    /* margin: 0; */
+    
     margin-top: 125px;
     font-family: 'Guttman Drogolin';
     color: #a13245;
-    /*display: flex;
-    flex-wrap: wrap;*/
+   
 }
 
 .leftPart p {
@@ -208,11 +178,10 @@ h3 {
 
 section .eve, .dvora, .sara, .rachel, .yael, .ruth {
     display: block;
-    /* margin-left: 202px; */
     margin-right: 40px;
     margin-top: 7px;
     flex: 1;
-    /* width: 89px; */
+    
     text-align: justify;
 }
 
@@ -255,8 +224,22 @@ footer ul li a {
 }
 
 
+#mainNav a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+#mainNav a:active {
+    background-color: #a13245;
+}
+
+footer a:hover {
+    background-color: bisque;
+    color: black;
+}
+
 footer a:active {
-    background-color: red;
+    background-color: #a13245;
 }
 
 #footerList {

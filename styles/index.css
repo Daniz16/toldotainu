@@ -1,17 +1,16 @@
 ﻿body {
     direction: rtl;
     width: 1280px;
-    /*width: 1667px;*/
     margin: 0 auto;
     background-image: url(../pics/background.jpg);
     background-size: cover;
 }
+
 .navList {
     width: 100%;
     position: absolute;
     right: 0px;
     top: 0px;
-    /*z-index: 7;*/
     z-index: 2;
 }
 
@@ -31,10 +30,6 @@
 #mainNav li {
     display: inline-block;
 }
-/*
-    #mainNav li a{
-        display: inline-block;
-    }*/
 
 
 #mainNav ul li a {
@@ -48,11 +43,21 @@
 }
 
 #mainNav a:hover {
-    background-color: lightskyblue;
+    background-color: bisque;
+    color: black;
 }
 
 #mainNav a:active {
-    background-color: red;
+    background-color: #a13245;
+}
+
+footer a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+footer a:active {
+    background-color: #a13245;
 }
 
 #mainNav .innerUl {
@@ -68,6 +73,7 @@
 #books {
     margin-top: 70px;
 }
+
 .picBook1 {
     background-image: url(../pics/books/genesis.png);
     background-size: 150px;
@@ -78,30 +84,6 @@
     margin-right: 40px;
 }
 
-
-
-/*.tooltipGene {
-    display:none;
-    width: 190px;
-    height: 395px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: solid black 2px;
-    border-radius: 6px;
-    padding: 5px 0;*/
-    /*display: block;*/
-    /*position: absolute;
-    top: 250px;
-    right: 135px;
-    font-size: 25px;
-}
-
-
-.picBook1:hover .tooltipGene {*/
-    /*visibility: visible;*/
-    /*display: block;
-}*/
 
 
 
@@ -116,27 +98,6 @@
 }
 
 
-/*.tooltipExodus {
-    display: none;
-    width: 190px;
-    height: 528px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: solid black 2px;
-    border-radius: 6px;
-    padding: 5px 10px;*/
-    /*display: block;*/
-    /*position: absolute;
-    top: 250px;
-    right: 335px;
-    font-size: 25px;
-}
-
-.picBook2:hover .tooltipExodus {*/
-    /*visibility: visible;*/
-    /*display: block;
-}*/
 
 
 
@@ -152,27 +113,6 @@
     margin-right: 45px;
 }
 
-/*.tooltipLevit {
-    display: none;
-    width: 190px;
-    height: 495px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: solid black 2px;
-    border-radius: 6px;
-    padding: 5px 10px;*/
-    /*display: block;*/
-    /*position: absolute;
-    top: 250px;
-    right: 557px;
-    font-size: 25px;
-}
-
-.picBook3:hover .tooltipLevit {*/
-    /*visibility: visible;*/
-    /*display: block;
-}*/
 
 
 
@@ -188,27 +128,7 @@
 }
 
 
-/*.tooltipNums {
-    display: none;
-    width: 190px;
-    height: 490px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: solid black 2px;
-    border-radius: 6px;
-    padding: 5px 10px;*/
-    /*display: block;*/
-    /*position: absolute;
-    top: 250px;
-    left: 278px;
-    font-size: 25px;
-}
 
-.picBook4:hover .tooltipNums {*/
-    /*visibility: visible;*/
-    /*display: block;
-}*/
 
 
 
@@ -221,28 +141,6 @@
     background-position-x: right;
     margin-right: 50px;
 }
-
-/*.tooltipDeutero {
-    display: none;
-    width: 190px;
-    height: 560px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: solid black 2px;
-    border-radius: 6px;
-    padding: 5px 10px;*/
-    /*display: block;*/
-    /*position: absolute;
-    top: 250px;
-    left: 45px;
-    font-size: 25px;
-}*/
-
-/*.picBook5:hover .tooltipDeutero {*/
-    /*visibility: visible;*/
-    /*display: block;
-}*/
 
 
 
@@ -265,7 +163,6 @@
     .navBooks ul li {
         display: inline-block;
         width: 220px;
-        /*height: 300px;*/
     }
 
 
@@ -290,17 +187,11 @@
 /*--------------------------------------------------------------K*/
 
 div .findOutMore {
-    /* font-family: 'Guttman Drogolin'; */
     font-size: 23px;
     color: black;
     text-align: center;
-    /*top: 51px;*/
     margin-top: 55px;
 }
-
-
-
-
 
 
 
@@ -315,11 +206,6 @@ section .didYouKnow {
     padding-top: 26px;
     margin: auto;
 }
-
-/*
-.didYouKnow p {
-    display: none;
-}*/
 
 
 .navBooks p {
@@ -337,7 +223,6 @@ section .didYouKnow {
 }
 
 .Gene {
-    /*margin-right: 270px;*/
     right: 340px;
     background: cornsilk;
     border: 13px;
@@ -349,7 +234,6 @@ section .didYouKnow {
 
 
 .Exodus {
-    /*margin-right: 45px;*/
     right: 340px;
     background: cornsilk;
     border: 13px;
@@ -389,6 +273,7 @@ section .didYouKnow {
     left: 304px;
     padding: 15px;
 }
+
 .haidata {
     font-size: 25px;
     font-family: 'Guttman Drogolin';
@@ -396,9 +281,6 @@ section .didYouKnow {
 }
 /*----------- לעשות מחדש*/
 .importantPeople {
-    /*    height: 1000px;
-    height: 1000px;
-    border-top: 2px solid black;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -407,7 +289,7 @@ section .didYouKnow {
     text-align: center;
     padding: 20px;
     margin-top: 150px;
-    /*top:100px;*/
+    margin-bottom: 10px;
 }
 
 
@@ -415,13 +297,14 @@ section .didYouKnow {
         font-size: 30px;
         height: 50px;
         width: 100%;
-        /* background-color: papayawhip; */
         text-align: center;
         padding-top: 15px;
-        /* margin-bottom: 20px; */
-        /* color: #a13245; */
         color: black;
     }
+
+.importantPeopleSection {
+    margin-bottom: 60px;
+}
 
 .circle1, .circle2, .circle3 {
     display: flex;
@@ -443,7 +326,7 @@ section .didYouKnow {
     margin-top: 10px;
 }
 
-.picBook1:hover  .importantPeople {
+.picBook1:hover .importantPeople {
     margin-top: 250px;
 }
 
@@ -470,11 +353,6 @@ footer ul li a {
     height: 34px;
     padding-top: 17px;
     margin: 0px 22px 0px 22px;
-}
-
-
-footer a:active {
-    background-color: red;
 }
 
 #footerList {

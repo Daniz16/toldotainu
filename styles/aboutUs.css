@@ -11,7 +11,6 @@
 body {
     direction: rtl;
     width: 1280px;
-    /*width: 1667px;*/
     margin: 0 auto;
     background-image: url(../pics/background.jpg);
     background-size: cover;
@@ -21,7 +20,6 @@ body {
     position: absolute;
     right: 0px;
     top: 0px;
-    /*z-index: 7;*/
     z-index: 2;
 }
 
@@ -41,10 +39,7 @@ body {
 #mainNav li {
     display: inline-block;
 }
-/*
-    #mainNav li a{
-        display: inline-block;
-    }*/
+
 
 
 #mainNav ul li a {
@@ -57,13 +52,7 @@ body {
     padding-top: 10px;
 }
 
-#mainNav a:hover {
-    background-color: lightskyblue;
-}
 
-#mainNav a:active {
-    background-color: red;
-}
 
 #mainNav .innerUl {
     display: none;
@@ -76,24 +65,6 @@ body {
 }
 
 
-
-
-div {
-    margin: 30px 10px 10px 400px;
-    padding: 0px 10px 50px 300px;
-    direction: rtl;
-    color: brown;
-    background-color:antiquewhite;
-    border:thick;
-    border-color:black;
-
-}
-
-
-
-.fill {
-    background-color: antiquewhite;
-}
 
 
 footer ul {
@@ -121,9 +92,28 @@ footer ul li a {
 }
 
 
-footer a:active {
-    background-color: red;
+
+
+#mainNav a:hover {
+    background-color: bisque;
+    color: black;
 }
+
+#mainNav a:active {
+    background-color: #a13245;
+}
+footer a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+footer a:active {
+    background-color: #a13245;
+}
+
+
+
+
 
 #footerList {
     width: 100%;
@@ -132,14 +122,6 @@ footer a:active {
     bottom: 0px;
     z-index: 2;
 }
-
-.innerUl {
-    display: inline;
-    margin: 10px;
-    padding: 20px;
-    font-size: 18px;
-}
-
 
 
 
@@ -150,6 +132,7 @@ header {
     direction: rtl;
     padding: 10px;
     font-family: 'Guttman Drogolin';
+    padding-top: 20px;
 }
 
 
@@ -182,10 +165,13 @@ header {
 
 .circle2 {
     display: inline-block;
-    background-image: url('../pics/daniel.jpeg');
-    background-size: 200px;
+    background-image: url(../pics/daniel.jpeg);
+    /*background-size: 114px;*/
+    /*background-position-x: right;*/
+    background-size: 220px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position: 0%;
+}
 }
 
 .breadCrumbs {
@@ -218,3 +204,42 @@ header {
 
 
 
+h1 {
+    margin-top: 40px;
+    right: 0;
+    font-family: 'Guttman Drogolin';
+    font-size: 50px;
+    color: #a13245;
+    text-align: center;
+}
+
+.picture {
+    margin-right: 26%;
+}
+
+.picture  p  {
+    margin-top: 215px;
+}
+
+
+.firstPara,
+.ourProject p{
+    /*text-align: center;*/
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.ourProject{
+    margin-top:90px;
+}
+
+.links a{
+    margin:20px;
+    color:black;
+}
+
+img{
+    height:130px;
+    width:220px;
+}

@@ -62,74 +62,68 @@
             </ol>
 
         </nav>
-        <h1>צרו קשר</h1>
-        <h3>יש לכם שאלה? נשמך לעזור</h3>
+        <p>
+            <h1>צרו קשר</h1>
+            <h3>יש לכם שאלה? נשמח לעזור!</h3>
+        </p>
+
     </header>
 
-    <div>
+    <div id="contactUs">
+        <form>
 
-        <label for="name">
-            שם מלא<br />
-            <input type="text" class="fill" /><br />
-        </label>
+            <input type="hidden" id="myEmail" name="name" value="sapirj1234@gmail.com" />
 
-        <label for="email">
-            מייל<br />
-            <input type="text" placeholder="../@gmail.com" class="fill" /><br />
-        </label>
-        <br />
-        <label for="Qtopic">
-            נושא השאלה שלי<br />
-            <select class="fill">
-                <option value="תנך">...</option>
-                <option value="תנך">מקומות היסטורים בתנ"ך</option>
-                <option value="תנך">נשים חזקות בתנ"ך</option>
-                <option value="תנך">ביטויים מהתנ"ך</option>
-            </select><br />
-        </label>
-        <br />
-        <label for="Q">
-            השאלה שלי<br />
-            <textarea class="fill" placeholder="רציתי להבין יותר על ה..." row="4"></textarea> <br />
-        </label>
-        <br />
+            <label for="name">
+                שם מלא<br />
+                <input type="text" class="fill" id="name" placeholder="הקלד את שמך המלא"/>
+                <br />
+            </label>
 
+            <label for="email">
+                מייל<br />
+                <input type="text" id="email" placeholder="../@gmail.com" class="fill" /><br />
+            </label>
+            <br />
 
-        <a id="sendFrom" href="mailto:sapirj1234@gmail.com"><input type="submit" value="שליחה" /></a>
+         
+                נושא השאלה שלי<br />
+                <select id="selectOption" class="fill">
+                    <option value="1" selected>...</option>
+                    <option value="2">מקומות היסטורים מהתנ"ך</option>
+                    <option value="3">נשים  מהתנ"ך</option>
+                    <option value="4">ביטויים מהתנ"ך</option>
+                </select><br />
 
+            <br />
+            <label for="myQ">
+                השאלה שלי<br />
+                <textarea class="fill" id="myQ" placeholder="רציתי להבין יותר על ה..." row="4"></textarea> <br />
+            </label>
+            <br />
+            <br />
+            <fieldset>
+                <legend>סמנו את הנושאים שעיניינו אתכם</legend>
+                <input type="checkbox" id="check1" />מקומות היסטורים מהתנ"ך<br />
+                <input type="checkbox" id="check2" />נשים מהתנ"ך<br />
+                <input type="checkbox" id="check3" />ביטויים מהתנ"ך<br />
+            </fieldset>
 
-        <br />
-        <fieldset>
-            <legend>סמנו את הנושאים שעיניינו אתכם</legend>
-            <input type="checkbox" />מקומות היסטורים בתנ"ך<br />
-            <input type="checkbox" />נשים חזקות בתנ"ך<br />
-            <input type="checkbox" />ביטויים מהתנ"ך<br />
-        </fieldset>
-
-        <fieldset>
-            <legend>סמנו כמה האתר הזה עניין אתכם</legend>
-            <input type="radio" name="first" /> משעמם <br />
-            <input type="radio" name="first" /> מעניין <br />
-            <input type="radio" name="first" /> מאוד מעניין <br />
-            <input type="radio" name="first" />  משנה חיים <br />
-        </fieldset>
-        <br />
+            <fieldset>
+                <legend>סמנו כמה האתר הזה עניין אתכם</legend>
+                <input type="radio" name="first" /> משעמם <br />
+                <input type="radio" name="first" /> מעניין <br />
+                <input type="radio" name="first" /> מאוד מעניין <br />
+                <input type="radio" name="first" />  משנה חיים <br />
+            </fieldset>
+            <br />
+            <input type="submit" id="sendFrom" value="שליחה">
+        <div id="feedback"></div>
+        </form>
 
     </div>
 
-    <!--<nav aria-label="פוטר">
-        <footer>
-            <ul id="footer">
-                <il> <a class="foot" href=“x” target="_self"> אודות </a></il>
 
-                <il> <a class="foot" href="index.html" target="_self"> צרו קשר </a></il>
-
-                <il> <a class="foot" href="" target="_self"> מפת אתר </a></il>
-
-            </ul>
-
-        </footer>
-    </nav>-->
 
 
     <footer>
@@ -141,4 +135,4 @@
         </ul>
     </footer>
 </body>
-    </html>
+</html>

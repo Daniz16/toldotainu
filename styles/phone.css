@@ -1,7 +1,6 @@
 ﻿body {
    direction: rtl;
     width: 1280px;
-    /*width: 1667px;*/
     margin: 0 auto;
     background-image: url(../pics/background.jpg);
     background-size: cover;
@@ -17,7 +16,6 @@
     position: absolute;
     right: 0px;
     top: 0px;
-    /*z-index: 7;*/
     z-index: 2;
 }
 
@@ -32,10 +30,6 @@
 #mainNav li {
     display: inline-block;
 }
-/*
-    #mainNav li a{
-        display: inline-block;
-    }*/
 
 
 #mainNav ul li a {
@@ -48,14 +42,6 @@
     padding-top: 10px;
 }
 
-#mainNav a:hover {
-    background-color: lightskyblue;
-}
-
-#mainNav a:active {
-    background-color: red;
-}
-
 #mainNav .innerUl {
     display: none;
     position: absolute;
@@ -66,14 +52,16 @@
     width: 150px;
 }
 
-a {
+
+
+
+header {
+    font-size: 20px;
     color: brown;
-    text-decoration: none;
+    padding: 10px;
+    text-align: center;
 }
 
-    a:hover {
-        color: red;
-    }
 
 div {
     margin: 5px;
@@ -82,23 +70,40 @@ div {
     color:brown;
 }
 
-.fill{
-    background-color:goldenrod;
+.fill {
+    background-color: papayawhip;
+    color:black;
 }
 
+
+.form {
+    position: fixed;
+    width: 100%;
+    margin-right: 379px;
+
+}
+
+
+div form  {
+    margin-right: 360px;
+    direction: rtl;
+    margin-top: 30px;
+    color: brown;
+}
 #sendFrom {
     color: brown;
     background-color: peru;
 }
 
-    #sendFrom :hover {
-        color: goldenrod;
-        background-color:brown ;
+    #sendFrom:hover {
+        background-color: bisque;
+        color: black;
     }
 
     #sendFrom :active {
-        color: brown;
-        background-color:goldenrod ;
+        color: white;
+        background-color: #a13245;
+       
     }
 
 
@@ -127,8 +132,22 @@ footer ul li a {
 }
 
 
+#mainNav a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+#mainNav a:active {
+    background-color: #a13245;
+}
+
+footer a:hover {
+    background-color: bisque;
+    color: black;
+}
+
 footer a:active {
-    background-color: red;
+    background-color: #a13245;
 }
 
 #footerList {
@@ -140,28 +159,38 @@ footer a:active {
     margin-bottom: 0px;
 }
 
+fieldset {
+    border: 0;
+    padding-top: 20px;
+    width: 205px;
+}
 
 
 header {
-    font-size: 25px;
+    font-size: 20px;
     color: brown;
-    direction: rtl;
     padding: 10px;
 }
 
-
-
-#emekHeka {
-    padding: 3px 15px 200px 15px;
+h1 {
+    margin-top: 81px;
+    right: 0;
+    font-family: 'Guttman Drogolin';
+    font-size: 50px;
+    color: #a13245;
+    text-align: center;
 }
+
+
 
 
 .breadCrumbs {
     right: 0;
     margin-top: 20px;
-    /* margin-right: 98px; */
     z-index: 3;
     position: absolute;
+    font-size:16px;
+    font-family:Arial;
 }
 
 
@@ -169,6 +198,7 @@ header {
 
     .breadCrumbs ol li {
         display: inline-block;
+        color: black;
     }
 
         .breadCrumbs ol li a {
