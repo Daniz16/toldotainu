@@ -214,3 +214,10 @@ h1 {
             content: "";
         }
 
+.credit {
+    z-index: 8;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size:12px;
+}
