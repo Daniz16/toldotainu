@@ -16,7 +16,6 @@
     position: absolute;
     right: 0px;
     top: 0px;
-    /*z-index: 7;*/
     z-index: 2;
 }
 
@@ -130,9 +129,7 @@ footer a:active {
    
     right: 0;
     top: 34px;
-    /* margin-bottom: 69px; */
     margin-right: 98px;
-    /* z-index: 3; */
     position: absolute;
 }
 
@@ -141,6 +138,8 @@ footer a:active {
 
 .breadCrumbs ol li {
     display: inline-block;
+    color:black;
+    font-size:16px;
 }
 
         .breadCrumbs ol li a {
@@ -171,14 +170,14 @@ footer a:active {
 }
 
 .dropdown3 {
-    margin-right: 621px;
+    margin-right: 625px;
     position: absolute;
     font-size: 20px;
 
 }
 
 .dropdown4 {
-    margin-right: 850px;
+    margin-right: 885px;
     position: absolute;
     font-size: 20px;
 }

@@ -166,8 +166,6 @@ header {
 .circle2 {
     display: inline-block;
     background-image: url(../pics/daniel.jpeg);
-    /*background-size: 114px;*/
-    /*background-position-x: right;*/
     background-size: 220px;
     background-repeat: no-repeat;
     background-position: 0%;
@@ -176,9 +174,7 @@ header {
 
 .breadCrumbs {
     right: 0;
-    margin-top: 51px;
-    /* margin-right: 98px; */
-    z-index: 3;
+    z-index: 2;
     position: absolute;
 }
 
@@ -187,6 +183,9 @@ header {
 
     .breadCrumbs ol li {
         display: inline-block;
+        margin-top: 51px;
+        font-size: 16px;
+        color:black;
     }
 
         .breadCrumbs ol li a {

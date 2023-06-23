@@ -16,7 +16,6 @@
     position: absolute;
     right: 0px;
     top: 0px;
-    /*z-index: 7;*/
     z-index: 2;
 }
 
@@ -265,6 +264,7 @@ footer a:active {
 
     .breadCrumbs ol li {
         display: inline-block;
+        color: black;
     }
 
         .breadCrumbs ol li a {

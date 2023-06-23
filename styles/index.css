@@ -184,7 +184,6 @@ footer a:active {
     margin-top: 20px;
 }
 
-/*--------------------------------------------------------------K*/
 
 div .findOutMore {
     font-size: 23px;
@@ -279,7 +278,7 @@ section .didYouKnow {
     font-family: 'Guttman Drogolin';
     color: #a13245;
 }
-/*----------- לעשות מחדש*/
+
 .importantPeople {
     display: flex;
     flex-wrap: wrap;
